@@ -34,6 +34,8 @@ all sites are rendered simultaneously.
 * Almost all pages render. The only ones which will not are the ones hosted 
   on a server which does not allow iframe rendering. Google, for example, 
   will not work.
+* Screen shot to come.
+* This project was really just used as a chance to learn extensions and JavaScript.
 
 ### Warning ###
 * Security:
