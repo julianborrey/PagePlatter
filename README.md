@@ -22,8 +22,8 @@ all sites are rendered simultaneously.
    * To remove a page from the list click 'Remove Click' and 'Clear All' 
      will remove all pages and insert the default welcome page.
 * To make the welcome page render you may need to change the path that is 
-  set in the [code.js]() file to include your extension ID. It is a global 
-  in the Platter object.
+  set in the [code.js](https://github.com/julianborrey/PagePlatter/blob/master/code.js) 
+  file to include your extension ID. It is a global in the Platter object.
 * Setting a scroll position on an iframe is close to impossible so instead 
   the frames are wrapped in a div that we use to scroll.
 * This extension was tested without iframes and using Ajax to dump HTML 
