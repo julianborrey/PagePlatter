@@ -1,0 +1,88 @@
+<script src="jquery-2.0.3.min.js"></script>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<script src="chrome-extension://adfijokpjofbjlnpggebaeoephdnfnhf/bootstrap/bootstrap.min.js"></script>
+<script src="code.js"></script>
+
+<style type="text/css">
+	h3 {
+		text-align: center;
+		margin: 0px;
+		color: #555;
+	}
+	
+	body {
+	   min-width: 770px;
+	}
+	
+	td.main-btn {
+		text-align: right;
+		padding-left: 10px;
+		width:200px;
+	}
+	
+	.frame-div {
+		max-width: 630px;
+		max-height: 200px;
+		overflow: scroll;
+		position: relative;
+		margin-top: 20px;
+	}
+	
+	iframe {
+		width:1000px;	
+		scrolling: no;
+		margin: 10px;
+		height: 1000px;
+	}
+
+	table {
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 5px;
+	}
+	
+	.btn-col {
+		width: 200px;
+		padding-left:10px;
+	}
+	
+	hr {
+		margin: 4px;
+	}
+	
+	#save-page-note {
+		color: green;
+	}
+	
+	#clear-all-note {
+		color: red;
+	}
+	
+	#page {
+		color: #2f96b4;
+	}
+	
+	#platter {
+		color: #f89406;
+	}
+</style>
+
+<table style="width:100%">
+	<tr>
+		<td>
+			<h3></span><span id="page">Page</span><span id="platter">Platter</span></h3>
+		</td>
+		
+		<td style="text-align:right; padding-right:10px" class="main-btn">
+			<button id="save-page" class="btn btn-small btn-primary">Save Page</button>
+			<span class="note" id="save-page-note"></span>
+		
+			<button id="clear-all" class="btn btn-small btn-danger">Clear All</button>
+			<span class="result" id="clear-all-note"></span>
+		</td>
+	</tr>
+</table>
+<hr>
+
+<table id="frames-block">
+</table>

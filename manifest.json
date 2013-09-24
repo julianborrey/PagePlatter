@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Site Platter",
+  "description": "Select pieces of sites to view on a sinlge platter.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://*/*", 
+	"https://*/*", 
+	"tabs", 
+	"storage"
+  ],
+  
+  "browser_action": {
+    "default_icon":  "icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
