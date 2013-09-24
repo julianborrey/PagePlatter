@@ -39,14 +39,13 @@ all sites are rendered simultaneously.
   will not work.
 * This project was really just used as a chance to learn extensions and JavaScript.
 
-### Warning ###
-* Security:
-   * To make this extension work many security measures had to be 
-     removed. In particular the 
-     [Same Origin Policy](http://en.wikipedia.org/wiki/Same-origin_policy) 
-     has been somewhat subverted. Using a Chrome extension gives greater 
-     power in rendering HTML from foreign origins however this does not 
-     make it safe.
-   * There is overwhelming potential for [XSS](http://en.wikipedia.org/wiki/Cross-site_scripting) 
-     attacks on this extension.
-   * My advise is, probably don't use this extension.
+### Security Warning ###
+* To make this extension work many security measures had to be 
+  removed. In particular the 
+  [Same Origin Policy](http://en.wikipedia.org/wiki/Same-origin_policy) 
+  has been somewhat subverted. Using a Chrome extension gives greater 
+  power in rendering HTML from foreign origins however this does not 
+  make it safe.
+* There is overwhelming potential for [XSS](http://en.wikipedia.org/wiki/Cross-site_scripting) 
+  attacks on this extension.
+* My advise is, probably don't use this extension.
