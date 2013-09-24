@@ -12,6 +12,9 @@ or compare the data between multiple sites. Rather than opening each
 site every time you can click once (on the extension icon) and then 
 all sites are rendered simultaneously.
 
+### Screen Shot ###
+![PagePlatterScreenShot](screenshot.png)
+
 ### Notes ###
 * This hasn't really been polished but its functional and doesn't look too bad.
 * The UI should be very easy to use. In short though:
@@ -34,7 +37,6 @@ all sites are rendered simultaneously.
 * Almost all pages render. The only ones which will not are the ones hosted 
   on a server which does not allow iframe rendering. Google, for example, 
   will not work.
-* Screen shot to come.
 * This project was really just used as a chance to learn extensions and JavaScript.
 
 ### Warning ###
